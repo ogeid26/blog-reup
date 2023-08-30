@@ -41,8 +41,6 @@ Where does this album fit in their discography? It comes after the debut Spirit 
 
 Wild yet coherent, tribal and native yet displaying a mindful treatment of textures,  Here Comes the Indian is the identity of early Animal Collective in their very own habitat.
 
-
-<br>
 ## Sung Tongs (2004)
 
 The album was recorded during late 2003 and early 2004, and released on May of the latter year. This is perhaps the most acoustic phase of Animal Collective, as the album features looped and layered guitars, very gentle drumming, and a robust use of samples and heavy screaming (as is the norm for the band). In fact, the 2018 tour features Avey Tare, Panda Bear, their respective guitars, and a couple of drums.
