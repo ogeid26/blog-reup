@@ -3,9 +3,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import artistas from '../../images/artistas-y-albumes.png'
+import opiniones from '../../images/articulos-y-opiniones.png'
+import BasePageLayout from '../layouts/BasePageLayout.astro';
 
-const MUSIC_REVIEWS_IMAGE = 'https://concepto.de/wp-content/uploads/2020/03/musica-e1584123209397.jpg'
-const MUSIC_ARTICLES_IMAGE = 'https://www.marthadebayle.com/wp-content/uploads/2022/07/tiposdemusica.jpg'
+const MUSIC_REVIEWS_IMAGE = artistas
+const MUSIC_ARTICLES_IMAGE = opiniones
 ---
 
 <!DOCTYPE html>
@@ -69,20 +72,18 @@ const MUSIC_ARTICLES_IMAGE = 'https://www.marthadebayle.com/wp-content/uploads/2
 	<body>
 		<Header />
 		<main>
-			<h1> Artistas y álbumes </h1>
+			<h1>Música</h1>
 			<section>
 				<ul>
 					{
 							<li>
-								<a href='/music/reviews'>
+								<a href='/written/reviews'>
 									<img width={720} height={360} src={MUSIC_REVIEWS_IMAGE} alt="Music reviews image" />
-									<h4 class="title">Artistas y álbumes</h4>
 								</a>
 							</li>
 							<li>
 								<a href='/about'>
 									<img width={720} height={360} src={MUSIC_ARTICLES_IMAGE} alt="Music reviews image" />
-									<h4 class="title">Artículos y opiniones</h4>
 								</a>
 							</li>
 					}
@@ -92,3 +93,5 @@ const MUSIC_ARTICLES_IMAGE = 'https://www.marthadebayle.com/wp-content/uploads/2
 		<Footer />
 	</body>
 </html>
+
+<BasePageLayout/>

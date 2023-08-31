@@ -9,7 +9,7 @@ const { current = '' } = Astro.props;
     display: flex;
     flex: 1;
     font-family: var(--font-family-sans);
-    font-weight: 700;
+    font-weight: 800;
     justify-content: flex-end;
     text-transform: uppercase;
   }
@@ -32,7 +32,7 @@ const { current = '' } = Astro.props;
   a::before {
     content: '';
     position: absolute;
-    transition: transform .3s ease;
+    transition: transform .2 ease;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -57,8 +57,8 @@ const { current = '' } = Astro.props;
 
 <nav>
   <a class={current === " " ? "selected" : ""} href='/'>inicio</a>
-  <a class={current === "about" ? "selected" : ""} href='/about'>sobre mí</a>
-  <a class={current === "music" ? "selected" : ""} href='/music'>música</a>
+  <a class={current === "about" ? "selected" : ""} href='/about'>yo</a>
+  <a class={current === "music" ? "selected" : ""} href='/written'>escritos</a>
   <div class="theme-toggle-container">
     <ThemeToggleButton client:load />
   </div>

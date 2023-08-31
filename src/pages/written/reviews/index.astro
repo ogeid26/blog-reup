@@ -7,7 +7,7 @@ import { getCollection } from 'astro:content';
 import FormattedDate from '../../../components/FormattedDate.astro';
 
 const posts = (await getCollection('music')).sort(
-	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
 
@@ -94,7 +94,7 @@ const posts = (await getCollection('music')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/music/reviews/${post.slug}/`}>
+								<a href={`/written/reviews/${post.slug}/`}>
 									<img width={720} height={360} src={post.data.previewImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
