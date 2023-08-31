@@ -94,7 +94,7 @@ const posts = (await getCollection('music')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/blog/${post.slug}/`}>
+								<a href={`/music/reviews/${post.slug}/`}>
 									<img width={720} height={360} src={post.data.previewImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
