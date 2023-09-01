@@ -1,6 +1,6 @@
 ---
 title: Iglooghost
-category: music
+category: review
 pubDate: 2021-09-06
 previewImage: 'https://i.ytimg.com/vi/eWku6kzJA80/maxresdefault.jpg'
 ---

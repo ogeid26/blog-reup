@@ -4,23 +4,6 @@ category: review
 pubDate: 2021-03-16'
 previewImage: 'https://djmag.es/wp-content/uploads/2018/08/sinjin-hawke-zora-jones-vicious-circles.jpg'
 ---
-
-<style>
-div {
-    text-align: center;}
-.left {
-    margin-left: -1900px;
-    margin-bottom: -1200px;
-    opacity: 0.8;
-}
-.right {
-    margin-right: -1500px;
-    margin-top: -50px;
-    margin-bottom: -650px;
-    opacity: 0.8;
-}
-</style>
-
 # Vicious Circles
 
 La colaboración entre la austriaca Zora Jones y el canadiense-estadounidense Sinjin Hawke recopila, en sus 18 minutos de duración, una épica de sintetizadores contrapuestos y voces electrónicamente manipuladas, las cuales, en convergencia hacia el *drop* característico de Zora Jones (que en realidad presta bastante de las decisiones de producción del colectivo argentino AGVA, en específico de [EL PLVYBXY](https://soundcloud.com/plvybxy), crean una atmósfera de constante tensión.
