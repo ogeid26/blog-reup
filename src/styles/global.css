@@ -3,7 +3,6 @@
 	--text-main: #36393b;
 	--text-secondary: #6b6f72;
 	--primary-color: #a3b18a;
-	--font-family-serif: Merriweather, serif;
 	--font-family-sans: 'Fira Sans', sans-serif;
   }
   
@@ -13,7 +12,20 @@
 	--text-secondary: #ccc;
 	--primary-color: #a3b18a;
   }
-  
+  @font-face {
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'Atkinson';
+	src: url('/fonts/atkinson-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+} 
   *,
   *:before,
   *:after {
@@ -26,10 +38,11 @@
 	padding: 3em 1em;
 }	 
   body {
+	font-family: 'Atkinson', sans-serif;
 	margin: 0;
-	font-family: var(--font-family-serif);
-	font-size: 16px;
-	line-height: 1.6;
+	text-align: left;
+	font-size: 20px;
+	line-height: 1.7;
 	background-color: var(--background-body);
 	color: var(--text-main);
   }
@@ -271,3 +284,22 @@
 	  margin: 1em 0;
 	}
   }		
+
+
+.sr-only {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+	clip: rect(1px 1px 1px 1px);
+	/* maybe deprecated but we need to support legacy browsers */
+	clip: rect(1px, 1px, 1px, 1px);
+	/* modern browsers, clip-path works inwards from each corner */
+	clip-path: inset(50%);
+	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+	white-space: nowrap;
+}

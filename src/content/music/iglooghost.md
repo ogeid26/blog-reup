@@ -6,27 +6,19 @@ previewImage: 'https://i.ytimg.com/vi/eWku6kzJA80/maxresdefault.jpg'
 ---
 <style>
 div {
-    text-align: center;}
-.left {
-    opacity: 0.8;
-    margin-bottom: 30px;
-}
-.right {
-    margin-right: -1500px;
-    margin-top: -50px;
-    margin-bottom: -650px;
-    opacity: 0.8;
+.imgcenter {
+        text-align: center;
 }
 </style>
 
 # Chinese Nü Yr
-<div>
+<div class='imgcenter'>
 <img
-class="left"
 src="https://f4.bcbits.com/img/a3255931971_10.jpg"
 style="width:60%"
 >
 </div>
+
 El primer lanzamiento oficial de Iglooghost (o por lo menos el primero que salió oficialmente en Spotify/Apple Music).
 Iglooghost deslumbra un mundo comprimido, principalmente rosado (como ilustra su portada), en el que hay un mundo de
 protagonistas, los cuales van rotando y variando con respecto a su protagonismo: a veces es un sutil sub-bajo, presente
@@ -47,10 +39,10 @@ Probablemente la canción que más disfruté de este EP fue **Gold Coat**. La id
 por múltiples "escenarios" (léase: conjunto de instrumentales) me pareció maravillosa. Por ejemplo, compara las
 siguientes partes de la canción:
 
-* 0:14 - 0:59
-* 1:01 - 1:42
-* 1:43 - 2:09
-* 2:24 - 2:51
+- 0:14 - 0:59
+- 1:01 - 1:42
+- 1:43 - 2:09
+- 2:24 - 2:51
 
 Luego se repiten un poco estas partes (y se va formando la estructura de la canción en el proceso), pero la idea base
 me pareció creativa.
@@ -61,7 +53,7 @@ tranquilamente podría ser usada como textura para una canción de tres minutos;
 desaparecen más pronto de lo que se llegan. Como concepto de idea, me encantó; sin embargo, creo que falto cohesión en
 cuanto al tono. Dos ejemplos cortos de esto:
 
-* El preludio de la primera canción, **Xiangjiao**, tiene un sabor salado, pero el desarrollo es lo más agridulce (de
+- El preludio de la primera canción, **Xiangjiao**, tiene un sabor salado, pero el desarrollo es lo más agridulce (de
 esperarse de Iglooghost). Quizá esto se puede interpretar como un intento por sublimar las expectativas del oyente, pero
 creo que no salió muy bien.
 * La delicadeza de **Gold Coat** se tira al tacho en la transición con la última canción, **Peach Rift**, la cual es de
