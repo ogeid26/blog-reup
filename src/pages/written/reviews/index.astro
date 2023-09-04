@@ -18,6 +18,7 @@ const posts = (await getCollection('music')).sort(
 		<style>
 			main {
 				width: 960px;
+				max-width: calc(100% - 2.369em);
 			}
 			ul {
 				display: flex;
@@ -88,7 +89,7 @@ const posts = (await getCollection('music')).sort(
 	<body>
 		<Header />
 		<main>
-			<h1>Aristas y álbumes</h1>
+			<h1>Artistas y álbumes</h1>
 			<section>
 				<ul>
 					{
