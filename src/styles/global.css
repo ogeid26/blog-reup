@@ -2,16 +2,19 @@
 	--background-body: #fff;
 	--text-main: #36393b;
 	--text-secondary: #6b6f72;
-	--primary-color: #a3b18a;
-	--font-family-sans: 'Fira Sans', sans-serif;
+	--primary-color: #548e9b;
+	font-family: 'Atkinson', sans-serif;
   }
   
   :root.theme-dark {
 	--background-body: #202122;
 	--text-main: #fff;
 	--text-secondary: #ccc;
-	--primary-color: #a3b18a;
+	--primary-color: #548e9b;
+	font-family: 'Atkinson', sans-serif;
+
   }
+
   @font-face {
 	font-family: 'Atkinson';
 	src: url('/fonts/atkinson-regular.woff') format('woff');
@@ -25,60 +28,62 @@
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
-} 
-  main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
-}	 
+}
+  *,
+  *:before,
+  *:after {
+	box-sizing: border-box;
+  }
+  
   body {
-	font-family: 'Atkinson', sans-serif;
 	margin: 0;
-	padding: 0;
-	text-align: justify;
+	font-family: var(--font-family-serif);
 	font-size: 20px;
-	line-height: 1.7;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
+	line-height: 1.6;
 	background-color: var(--background-body);
-	background-size: 100% 600px;
 	color: var(--text-main);
   }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0 0 0.5rem 0;
-	color: rgb(var(--black));
-	line-height: 1.2;
-}
-h1 {
-	font-size: 3.052em;
-}
-h2 {
-	font-size: 2.441em;
-}
-h3 {
-	font-size: 1.953em;
-}
-h4 {
-	font-size: 1.563em;
-}
-h5 {
-	font-size: 1.25em;
-}
   
-  p,
-  ul,
-  ol {
-	font-size: 1.3rem;
-	line-height: 1.75em;
-	margin: 1.2em 0;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	font-family: var(--font-family-sans);
+	font-weight: 700;
+	line-height: 1.2;
+	margin: 0 0 0.5em 0;
   }
+  
+  h1 {
+	font-family: var(--font-family-serif);
+	font-size: 4em;
+	margin: 0 0 1em 0;
+  }
+  
+  h2 {
+	margin: 1.6em 0 0 0;
+	font-size: 1.8em;
+  }
+  
+  h3 {
+	font-size: 1.5em;
+  }
+  
+  h4 {
+	font-size: 1.4em;
+  }
+  
+  h5 {
+	font-size: 1.3em;
+  }
+  
+  h6 {
+	font-size: 1.2em;
+  }
+  
+  ul,
   
   ol,
   ul {
@@ -126,7 +131,7 @@ h5 {
 	padding: 0;
 	border: 0;
 	height: 1px;
-	margin: 40px auto;
+	margin: 30px auto;
 	background-color: grey;
   }
   
@@ -168,17 +173,26 @@ h5 {
 	text-align: right;
   }
   
-
+  figure {
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+	margin: 0 0 3em 0;
+  }
   
   table {
-	position: center;
 	border-collapse: collapse;
 	font-family: var(--font-family-sans);
+	font-size: 1.125em;
 	margin: 2em 0;
   }
   
   th {
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 2px solid #cccccc;
 	padding: 0.4em 0.8em;
   }
   
@@ -239,12 +253,13 @@ h5 {
 	z-index: -1;
   }
   
-  @media (max-width: 720px) {
-	body {
-		font-size: 18px;
+  @media (max-width: 1020px) {
+	h1 {
+	  font-size: 3em;
 	}
-	main {
-		padding: 1em;
+  
+	.content h1 {
+	  font-size: 2.4em;
 	}
   }
   
@@ -259,23 +274,4 @@ h5 {
 	  font-size: 1.2rem;
 	  margin: 1em 0;
 	}
-  }		
-
-
-.sr-only {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-	clip: rect(1px 1px 1px 1px);
-	/* maybe deprecated but we need to support legacy browsers */
-	clip: rect(1px, 1px, 1px, 1px);
-	/* modern browsers, clip-path works inwards from each corner */
-	clip-path: inset(50%);
-	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
-	white-space: nowrap;
-}
+  }
