@@ -1,7 +1,7 @@
 ---
 title: Animal Collective
 category: review
-pubDate: 2022-06-10
+pubDate: 2018-06-10
 updatedDate: 2022-3-4
 previewImage: "https://archive.org/download/acollective2019-10-13/71112431_476516219612928_4716614477949813350_n.jpg"
 ---

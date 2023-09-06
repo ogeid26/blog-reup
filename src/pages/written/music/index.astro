@@ -6,8 +6,11 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../../components/FormattedDate.astro';
 
-const posts = (await getCollection('music')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+const posts = await getCollection('music', ({data}) => {
+	return data.category == 'review';
+})
+posts.sort(
+		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 ---
 
@@ -24,7 +27,7 @@ const posts = (await getCollection('music')).sort(
 				flex-wrap: wrap;
 				gap: 2rem;
 				list-style-type: none;
-				margin: 0em 10em 0em 10em;
+				margin: 0em 10em 10em;
 				padding: 0;
 			}
 			ul li {
@@ -93,7 +96,7 @@ const posts = (await getCollection('music')).sort(
 					{
 						posts.map((post) => (
 							<li>
-								<a href={`/written/reviews/${post.slug}/`}>
+								<a href={`/written/music/${post.slug}/`}>
 									<img width={720} height={360} src={post.data.previewImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
