@@ -6,10 +6,37 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import ViewTransitions from 'astro/components/ViewTransitions.astro';
 ---
 <style>
-	body {
-	text-align: center;
+	.home-container {
+				align-items: center;
+				display: flex;
+				flex: 1;
+				justify-content: space-around;
+				min-height: 400px;
+				margin: 3em;
 	}
+	.hero-image-container {
+    margin: 0 1em;
+    text-align: center;
+  }
+
+  .hero-image-container img {
+    display: block;
+	padding: 0em 4em 0em 0em;
+    min-height: 250px;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 1em;
+  }
+  .home-copy {
+      flex: 0;
+      padding-bottom: 2em;
+      text-align: center;
+    }
 </style>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -19,8 +46,16 @@ import ViewTransitions from 'astro/components/ViewTransitions.astro';
 	<body>
 		<Header title={SITE_TITLE} />
 		<main>
-			<h1> shitposting mental </h1>
-			<img src="https://i.etsystatic.com/8412806/r/il/5aad27/2074906857/il_fullxfull.2074906857_qdso.jpg"/>
+			<div class="home-container">
+				<div class="home-copy">
+				<h1> shitposting mental </h1>
+				</div>
+				<div class="hero-image-container">
+				</picture>
+				<img width='900px' src="https://i.etsystatic.com/8412806/r/il/5aad27/2074906857/il_fullxfull.2074906857_qdso.jpg"/> 
+				</picture>
+				</div>
+			</div>
 		</main>
 		<Footer />
 	</body>

@@ -16,13 +16,20 @@ const MUSIC_ARTICLES_IMAGE = opiniones
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image="" />
 		<style>
-			main {
-				width: 1000px;
-				max-width: calc(100% - 2em);
-				padding-left: 2em;
-
+			h1 {
+				text-align: center;
+			}
+				.home-container {
+				align-items: center;
+				display: flex;
+				flex: 1;
+				justify-content: center;
+				margin: 2em;
+				min-height: 400px;
+				max-width: 100%;
 			}
 			ul {
+				max-width: 100%;
 				display: flex;
 				flex-wrap: wrap;
 				gap: 2rem;
@@ -66,7 +73,7 @@ const MUSIC_ARTICLES_IMAGE = opiniones
 					gap: 0.5em;
 				}
 				ul li {
-					width: 100%;
+					width: 90%;
 					text-align: center;
 				}
 			}
@@ -76,22 +83,22 @@ const MUSIC_ARTICLES_IMAGE = opiniones
 		<Header />
 		<main>
 			<h1>Música</h1>
-			<section>
+			<div class="home-container">
 				<ul>
 					{
 							<li>
 								<a href='/written/reviews'>
-									<img width={720} height={360} src={MUSIC_REVIEWS_IMAGE} alt="Music reviews image" />
+									<img width={600} src={MUSIC_REVIEWS_IMAGE} alt="Music reviews image" />
 								</a>
 							</li>
 							<li>
 								<a href='/about'>
-									<img width={720} height={360} src={MUSIC_ARTICLES_IMAGE} alt="Music reviews image" />
+									<img width={600} src={MUSIC_ARTICLES_IMAGE} alt="Music reviews image" />
 								</a>
 							</li>
 					}
 				</ul>
-			</section>
+			</d>
 		</main>
 		<Footer />
 	</body>
