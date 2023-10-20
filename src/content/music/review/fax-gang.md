@@ -6,7 +6,7 @@ previewImage: "https://i.ytimg.com/vi/EGwTVxDKUPY/hq720.jpg?sqp=-oaymwEhCK4FEIID
 ---
 
 ## Sobre el Artista
-Fax Fang es una agrupación que, de acuerdo a su página de [BandCamp](https://faxgang.bandcamp.com/){:target="_blank"},
+Fax Fang es una agrupación que, de acuerdo a su página de [BandCamp](https://faxgang.bandcamp.com/),
 está conformada por **PK Shellboy**, **Blacklight**,
 **maknaeslayer**, Y **GLACIERbaby**, y con representación en Tailandia, Australia, Reino Unido, y Estados Unidos.
 
