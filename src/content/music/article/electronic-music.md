@@ -1,7 +1,8 @@
 ---
 title: La electrónica y su habilidad por comunicar ternura, pero también generar asombro
-category: ga
+category: article
 pubDate: 2022-09-18
+previewImage: "https://s3.amazonaws.com/quietus_production/images/articles/30494/2021-09-02_11-41-48_1631271607_crop_550x309.png"
 ---
 
 Una fortaleza evidente de la música electrónica es que le permite al artista crear ondas que suenen como ella quiere. Creo que esta síntesis/diseño de sonido ad hoc es una ventaja que hace que la electrónica sea muy interesante.
