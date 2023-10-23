@@ -1,6 +1,6 @@
 ---
-import BasePageLayout from '../../../layouts/BasePageLayout.astro';
-import { CollectionEntry, getCollection } from 'astro:content';
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BlogPost from '../../layouts/DefaultLayout.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('music');
@@ -9,12 +9,12 @@ export async function getStaticPaths() {
 		props: post
 	}));
 }
-type Props = CollectionEntry <'music'>;
+type Props = CollectionEntry<'music'>;
 
 const post = Astro.props;
 const { Content } = await post.render();
 ---
 
-<BasePageLayout {...post.data}>
+<BlogPost {...post.data}>
 	<Content />
-</BasePageLayout>
+</BlogPost>
