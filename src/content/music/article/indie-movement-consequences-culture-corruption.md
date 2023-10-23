@@ -2,7 +2,8 @@
 title: 'The Indie Movement: the consquences of culture corruption'
 category: article
 pubDate: 2017-11-09
-previewImage: ""
+previewImage: "https://www.magneticmag.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkxMzY2ODE0MzY0NjA4MDk4/what-is-indie-music--magnetic-magazine--clay-banks.jpg"
+
 ---
 
 The concept of what’s indie and what’s not is blurry. However, its outstanding characteristic, as stated in its own name, is independence. Whether it be in the form of gigs with hipster-dressed young adolescents, a goth-themed party or local hip hop battles, autonomy is an important factor shared amongst all representations of the indie movement. However, the contemporary music industry has stripped the indie movement out of its core components. In an attempt to industrialize the appeal that indie has to the youth, enterprises have corrupted the “indie aesthetic”, and, consequently, destroyed what made this cultural movement unique. If the 21st century was breathing down Morrisey’s neck in The Smith’s “Frankly Mr Shankly”, then we are being blown out by the imposition of culture that came along the 2000s.
