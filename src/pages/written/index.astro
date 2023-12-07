@@ -6,6 +6,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import artistas from '../../../images/artistas-y-albumes.png'
 import opiniones from '../../../images/articulos-y-opiniones.png'
 import BasePageLayout from '../../layouts/BasePageLayout.astro';
+import { Image } from 'astro:assets';
 
 const MUSIC_REVIEWS_IMAGE = artistas
 const MUSIC_ARTICLES_IMAGE = opiniones
@@ -88,12 +89,12 @@ const MUSIC_ARTICLES_IMAGE = opiniones
 					{
 							<li>
 								<a href='/music'>
-									<img width={600} src={MUSIC_REVIEWS_IMAGE} alt="Music reviews image" />
+									<Image width={600 }src={MUSIC_REVIEWS_IMAGE} alt="Music reviews image" />
 								</a>
 							</li>
 							<li>
 								<a href='/articles'>
-									<img width={600} src={MUSIC_ARTICLES_IMAGE} alt="Music reviews image" />
+									<Image width={600} src={MUSIC_ARTICLES_IMAGE} alt="Music reviews image" />
 								</a>
 							</li>
 					}
