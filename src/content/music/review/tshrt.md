@@ -4,15 +4,17 @@ category: review
 pubDate: 2023-10-20
 previewImage: "https://i.ytimg.com/vi/-vxdriGP1KE/maxresdefault.jpg"
 ---
-<center>
-<img
-src="https://yt3.googleusercontent.com/Hz4ehTG6URsyb4bKUg3vLNqJb_BT1BFzmn5u6GvQpxk3qCzuCqFpbEuT6y25sk77D56rMAdrKqQ=s900-c-k-c0x00ffffff-no-rj">
-</center>
 
 ## Sobre el artista
 TSHRT es un artista y productor peruano que ha trabajado con artistas como Clara Yolks y Skillbea.
 
 # Crisálida
+<center>
+<img
+style="width:75%"
+src="https://yt3.googleusercontent.com/Hz4ehTG6URsyb4bKUg3vLNqJb_BT1BFzmn5u6GvQpxk3qCzuCqFpbEuT6y25sk77D56rMAdrKqQ=s900-c-k-c0x00ffffff-no-rj">
+</center>
+
 THSRT tiene dos influencias muy claras: **Flume** y **Kanye**. Su primer ep, Crisálida, es como su portada, diseñada por [losolivos9](https://soundcloud.com/losolivos9): multicolor, croma, y cubista.
 
 *¿Qué Más?* es el interludio a este EP. Con coros ahogados a lo James Blake y sintetizadores saturados y oscilantes, acompañados del refrán de **Skillbea** ("aprenderé de ti"), TSHRT saluda al oyente con una introducción morada y celeste que tiene una transición muy bien lograda.
