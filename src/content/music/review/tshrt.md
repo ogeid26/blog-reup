@@ -12,7 +12,7 @@ TSHRT es un artista y productor peruano que ha trabajado con artistas como Clara
 <center>
 <img
 style="width:75%"
-src="https://yt3.googleusercontent.com/Hz4ehTG6URsyb4bKUg3vLNqJb_BT1BFzmn5u6GvQpxk3qCzuCqFpbEuT6y25sk77D56rMAdrKqQ=s900-c-k-c0x00ffffff-no-rj">
+src="https://m.media-amazon.com/images/I/41gKuwntnAL._UXNaN_FMjpg_QL85_.jpg">
 </center>
 
 THSRT tiene dos influencias muy claras: **Flume** y **Kanye**. Su primer ep, Crisálida, es como su portada, diseñada por [losolivos9](https://soundcloud.com/losolivos9): multicolor, croma, y cubista.
