@@ -10,11 +10,11 @@ previewImage: 'https://media.pitchfork.com/photos/5ff8f579e485450ea1b8ed91/16:9/
 Ariel Pink’s Haunted Graffiti, as the solo project of Ariel Rosenberg (whom I will refer to as Ariel Pink, his artistic pseudonym from now on), came to be in the late 00s, in times where the  musical panorama wasn't very clear: MGMT has just shaken the pop genre with Oracular Spectacular, hip-hop music wasn't really as socially relevant as it is today, and IDM was on its final and sloppy downfall.
 From this panorama, Ariel Pink emerged as the nostalgic artist, he who wasn't yet done with the sounds of 70s and 80s pop, he who saw in this age a craft-table in which to experiment and from which brilliant woodwork could be obtained.
 
-## *Before Today (2010)*
+## Before Today (2010)
 
 ***Before Today (2010)*** received notorious critical acclaim (in fact, one of its lead singles,*Round and Round*, was Pitchfork’s Song of the Year). From then on, he released several EPs ans LPs, such as Mature Themes (2012) which, on average, received mixed reviews.
 
-## *Pom Pom (2014)*
+## Pom Pom (2014)
 
 Pom Pom was, in a way, a surprise for Pink’s fans. With very little anticipation and not as many singles as usual, this album dropped on late 2014. I’m not an avid fan of him, but having heard the (not so interesting) direction which he had decided to take with his latest material, it was refreshing to listen to tracks that lied within Ariel’s comfort zone, but weren't very reliant on, say, 70s fashion of detuning guitars randomly, or 80s synthpop. Instead, to me, pom pom is a collection of tracks released during the times when Gary Numan’s *Cars* was a hit, or when **Kraftwerk** was still popular, but from a parallel dimension, and for two main reasons. Let me elaborate on each:
 
